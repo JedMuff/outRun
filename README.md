@@ -16,3 +16,6 @@ Done! the bot should be ready to go once you add it to the server you want.
 # About The Bot
 More information can be found on the devpost:
 https://devpost.com/software/outrun
+
+Click this link to add the bot to your server:
+https://discord.com/api/oauth2/authorize?client_id=713412488330215527&scope=bot
