@@ -13,12 +13,12 @@ TOKEN = os.getenv("DISCORD_TOKEN") #retrieves discord token from .env file
 
 # Changed by user on installation
 # Competition constraints.
-startDate = "2020-04-29T00:00:00Z"
-distance = 5000
+startDate = "2020-04-29T00:00:00Z" # Start date of competition
+distance = 5000 # 5 KM
 
 bot_directory = "C:\\Users\\Jed\\Documents\\outrun_website\\"
-client_id = "48491"
-client_secret = '5586197e3f2480908459c131580245061f507da1'
+client_id = INSERT_CLIENT_ID_HERE
+client_secret = INSERT_CLIENT_SECRET_HERE
 
 # Constants
 auth_url = "https://www.strava.com/oauth/token"
