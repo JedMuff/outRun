@@ -3,8 +3,8 @@ import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # Changed by user on installation
 bot_directory = "C:\\Users\\Jed\\Documents\\outrun_website\\"
-client_id = "48491"
-client_secret = '5586197e3f2480908459c131580245061f507da1'
+client_id = ""
+client_secret = ''
 # Constants
 auth_url = "https://www.strava.com/oauth/token"
 activites_url = "https://www.strava.com/api/v3/athlete/activities"
@@ -40,7 +40,7 @@ def getActivityList(refresh_token):
     access_payload = {
         'client_id': client_id,
         'client_secret': client_secret,
-        'refresh_token': refresh_token,#'492e30240f29029462739c25b7b78cb99de2bdbf'
+        'refresh_token': refresh_token,#''
         'grant_type': "refresh_token",
         'f': 'json'
     }
