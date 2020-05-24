@@ -32,7 +32,7 @@ def leaderBoard_update(user, activityList):
     for key in new_activityList:
         timing = key
         total = timing.get("moving_time")
-        activityList_again = sorted(new_activityList, key=lambda h: h["moving_time"])
+        activityList_again = sorted(new_activityList, key=lambda h: h["moving_time"], reverse = True)
     # This for loop takes the first index of the activityList_again list and gets the name of the individual and their time- converted to minutes to two decimal places.
     for activityList_again[0] in activityList_again:
         again = activityList_again[0]
