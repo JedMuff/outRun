@@ -1,3 +1,4 @@
+# Set Up
 There are two parts to setting up this bot:the discord bot and the strava API.
 Everything you need to run this bot is in the outun folder. Put this folder where you want to run the bot.
 # Bot Setup
@@ -12,3 +13,6 @@ After this is done you will need to get the client ID and Client Secret. This is
 
 Done! the bot should be ready to go once you add it to the server you want.
 
+# About The Bot
+More information can be found on the devpost:
+https://devpost.com/software/outrun
